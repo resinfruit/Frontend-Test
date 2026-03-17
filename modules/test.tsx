@@ -20,10 +20,7 @@ export default function TaskManager(): JSX.Element {
 
     //my variables
     const [tasks, setTasks] = React.useState<TaskType[]>([]);
-    const [completedTasks, setCompletedTasks] = React.useState<TaskType[]>([]);
-
     const [newTaskName, setNewTaskName] = React.useState("");
-    const [newTaskStatus, setNewTaskStatus] = React.useState(false); //set differently
     const [newTaskPriority, setNewTaskPriority] = React.useState("Medium");
     const [taskValidationError, setTaskValidationError] = React.useState("");
     const [taskFilter, setTaskFilter] = React.useState("All");
