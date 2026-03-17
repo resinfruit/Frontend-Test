@@ -195,7 +195,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <TaskManager />
+            <TaskManager /> // my task manager exported function is called and displayed here.
         </main>
     );
 }

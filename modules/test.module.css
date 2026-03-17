@@ -2,3 +2,36 @@
     height: 80vh;
     background-color: aliceblue;
 }
+
+.addTask
+{
+    display: flex;
+}
+.newTaskEntry
+{
+    display:flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.taskDisplayHeader
+{
+    display:flex;
+    flex-direction: row;
+    vertical-align: center;
+    gap: 5px;
+}
+.activeTask
+{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 10px;
+}
+.completedTask
+{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: lightgrey;
+    gap: 10px;
+}
